@@ -445,8 +445,8 @@ body {
 .card.active:hover .img-box {
   filter: brightness(150%);
 }
-/* card image styling section */
 
+/* card image styling section */
 .card1 .img-box {
   background: url("images/黒の男子.jpg");
   background-repeat: no-repeat;
@@ -502,7 +502,6 @@ body {
 }
 
 /* card content styling section */
-
 .content {
   background-color: var(--violet-lt-50);
   width: 100%;

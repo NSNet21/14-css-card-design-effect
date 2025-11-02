@@ -314,7 +314,7 @@ body {
   border-radius: 10px;
 }
 
-/* clos-button styling */
+/* close-button styling */
 .card .close-button {
   position: absolute;
   top: 0;
@@ -577,6 +577,7 @@ body {
   font-family: "Noto Serif JP", serif;
 }
 
+/* media query */
 @media only screen and (max-width: 900px) {
   .button-container {
     flex-direction: column;

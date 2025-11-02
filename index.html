@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Card Design Effect Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="footer-container">
+      <h1 class="footer">CSS Card Design Effect Demo</h1>
+    </div>
+    <div class="button-container">
+      <div class="indicator-container">
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+      </div>
+      <div class="button-wrapper">
+        <button id="expandAll">Expand All</button>
+        <button id="collapseAll">Collapse All</button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="card-container touch-scroll">
+        <div class="card card1">
+          <div class="close-button card1"><i class="bi bi-x"></i></div>
+          <div class="header-wrapper">
+            <h3 class="header">黒の男子</h3>
+          </div>
+          <div class="img-box"></div>
+          <div class="content">
+            <h3>黒の男子</h3>
+            <span>黒の男子「クロのダンシ」</span>
+            <p>
+              黒の男子（くろのだんし）は、静寂の中に潜む影のような存在。
+              言葉少なく、目に映るものすべてを見透かすかのように冷静だ。
+              だが、その心の奥底には、燃えるような情熱と孤独が交錯している。
+              闇に生まれ、光を知る ── 彼の物語は、まだ誰も知らない。
+            </p>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="close-button card2"><i class="bi bi-x"></i></div>
+          <div class="header-wrapper">
+            <h3 class="header">紅龍剣士の女子</h3>
+          </div>
+          <div class="img-box"></div>
+          <div class="content">
+            <h3>紅龍剣士の女子</h3>
+            <span>紅龍剣士の女子「こうりゅうけんしのじょし</span>
+            <p>
+              紅龍剣士の女子（こうりゅうけんしのじょし）──
+              その瞳は燃える炎、そしてその刃は運命を裂く。
+              赤き竜の魂を宿し、誇り高く戦う彼女の姿は、まるで灼熱の夢。
+              傷つくことを恐れず、ただ真実のために剣を振るう。
+              炎が彼女を包み、やがて夜を照らす光となる。
+            </p>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="close-button card3"><i class="bi bi-x"></i></div>
+          <div class="img-box"></div>
+          <div class="header-wrapper">
+            <h3 class="header">紅焔魔</h3>
+          </div>
+          <div class="content">
+            <h3>紅焔魔</h3>
+            <span>紅焔魔「コウエンマ」</span>
+            <p>
+              紅焔魔（こうえんま）── 炎は彼に従い、闇は彼を畏れる。
+              彼の中には、静かな怒りと深い慈悲が同居している。
+              人々は彼を恐れ、魔たちは彼に跪く。
+              その手にある焔は破壊のためではなく、秩序のため。
+              彼は焔に呪われたのではない ── 焔に選ばれたのだ。
+            </p>
+          </div>
+        </div>
+
+        <div class="card card4">
+          <div class="close-button card4"><i class="bi bi-x"></i></div>
+          <div class="header-wrapper">
+            <h3 class="header">紅龍魔女</h3>
+          </div>
+          <div class="img-box"></div>
+          <div class="content">
+            <h3>紅龍魔女</h3>
+            <span>紅龍魔女「こうりゅうまじょ」</span>
+            <p>
+              紅龍魔女（こうりゅうまじょ）──
+              彼女は竜を従えたのではない。竜が彼女に膝をついたのだ。
+              焔は彼女を焼かなかった。選んだのだ。
+              その身に宿る紅の力は、血でも契約でもない、運命そのもの。
+              彼女の存在は、竜と炎の間に生まれた奇跡。
+              静かに微笑むその姿は、炎の女神か、それとも終焉の使者か──。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

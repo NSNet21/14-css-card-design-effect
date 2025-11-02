@@ -1,0 +1,593 @@
+:root {
+  --text: rgb(237, 227, 243);
+  --background: rgb(12, 5, 15);
+  --primary: rgb(196, 144, 226);
+  --secondary: rgb(93, 24, 133);
+  --accent: #a41bf5;
+
+  /* lightness scale violet */
+  --violet-lt-50: #f8e5ff;
+  --violet-lt-100: #edcfff;
+  --violet-lt-200: #debdff;
+  --violet-lt-300: #cfacf2;
+  --violet-lt-400: #c09be4;
+  --violet-lt-500: #b18bd7;
+  --violet-lt-600: #a27ac9;
+  --violet-lt-700: #9369bb;
+  --violet-lt-800: #8457ac;
+  --violet-lt-900: #74459d;
+  --violet-lt-1000: #65338d;
+  --violet-lt-1100: #571f7f;
+  --violet-lt-1200: #4a0872;
+  --violet-lt-1300: #3e0066;
+  --violet-lt-1400: #300053;
+  --violet-lt-1400-tp: rgb(48, 0, 83, 0.5);
+  --violet-lt-1500: #22003c;
+  --violet-lt-1600: #140027;
+  --violet-lt-1700: #080014;
+  --violet-lt-1800: #010004;
+
+  /* saturation scale violet */
+  --violet-sat-50: #e6e3e8;
+  --violet-sat-100: #ddd6e1;
+  --violet-sat-200: #d4c9db;
+  --violet-sat-300: #cbbad6;
+  --violet-sat-400: #c3aad1;
+  --violet-sat-500: #bb99ce;
+  --violet-sat-600: #b288cc;
+  --violet-sat-700: #aa75ca;
+  --violet-sat-800: #a260c8;
+  --violet-sat-900: #9849c7;
+  --violet-sat-1000: #8f30c6;
+  --violet-sat-1100: #8520bf;
+  --violet-sat-1200: #7c15b4;
+  --violet-sat-1300: #720ca9;
+  --violet-sat-1400: #68059d;
+  --violet-sat-1500: #5e0291;
+  --violet-sat-1600: #540183;
+  --violet-sat-1700: #4a0074;
+  --violet-sat-1800: #3e0063;
+
+  /* ant design red color shade */
+  --red-ant-50: #fff7f3;
+  --red-ant-100: #fff3ef;
+  --red-ant-200: #fff0eb;
+  --red-ant-300: #ffeae4;
+  --red-ant-400: #ffe4dd;
+  --red-ant-500: #ffdad2;
+  --red-ant-600: #ffd0c6;
+  --red-ant-700: #fec3b8;
+  --red-ant-800: #fdb5a9;
+  --red-ant-900: #fca395;
+  --red-ant-1000: #f98c7c;
+  --red-ant-1100: #f77060;
+  --red-ant-1200: #f64539;
+  --red-ant-1300: #f02c24;
+  --red-ant-1400: #f61f1b;
+  --red-ant-1500: #c81b16;
+  --red-ant-1600: #b50000;
+  --red-ant-1700: #9b0000;
+  --red-ant-1800: #8b0000;
+  --red-ant-1900: #730000;
+
+  /* saturation scale red */
+  --red-sat-50: #e8e3e3;
+  --red-sat-100: #e1d6d6;
+  --red-sat-200: #dbc9c9;
+  --red-sat-300: #d6baba;
+  --red-sat-400: #d1aaaa;
+  --red-sat-500: #ce9999;
+  --red-sat-600: #cc8888;
+  --red-sat-700: #ca7575;
+  --red-sat-800: #c86060;
+  --red-sat-900: #c64949;
+  --red-sat-1000: #c63031;
+  --red-sat-1100: #be2023;
+  --red-sat-1200: #b41519;
+  --red-sat-1300: #a90c11;
+  --red-sat-1400: #9d050b;
+  --red-sat-1500: #900206;
+  --red-sat-1600: #830103;
+  --red-sat-1700: #740001;
+  --red-sat-1800: #630000;
+
+  /* analogous red color */
+  --red-ag-50: #ffcce5;
+  --red-ag-100: #ffb8d8;
+  --red-ag-200: #ffa5c8;
+  --red-ag-300: #ff91b5;
+  --red-ag-400: #fe7da1;
+  --red-ag-500: #fe698a;
+  --red-ag-500-tp: rgb(254, 105, 138, 0.3);
+  --red-ag-600: #fe5571;
+  --red-ag-700: #fd4156;
+  --red-ag-800: #fc2b38;
+  --red-ag-900: #f90c13;
+  --red-ag-1000: #f60000;
+  --red-ag-1100: #e70300;
+  --red-ag-1200: #d41800;
+  --red-ag-1300: #c12400;
+  --red-ag-1400: #ae2c00;
+  --red-ag-1500: #9c3100;
+  --red-ag-1600: #8a3400;
+  --red-ag-1700: #773400;
+  --red-ag-1800: #633100;
+
+  /* lightness scale red */
+  --red-lt-50: #ffe3dd;
+  --red-lt-100: #ffccc2;
+  --red-lt-200: #ffb8ad;
+  --red-lt-300: #f4a79b;
+  --red-lt-400: #e6968a;
+  --red-lt-500: #d88579;
+  --red-lt-600: #ca7468;
+  --red-lt-700: #ba6256;
+  --red-lt-800: #ab5045;
+  --red-lt-900: #9a3d32;
+  --red-lt-1000: #8a2920;
+  --red-lt-1100: #7a130e;
+  --red-lt-1200: #6c0000;
+  --red-lt-1300: #5c0000;
+  --red-lt-1400: #470000;
+  --red-lt-1500: #340000;
+  --red-lt-1600: #210000;
+  --red-lt-1700: #100000;
+  --red-lt-1800: #020000;
+}
+
+.card1 {
+  --clr: rgb(83 1 131 / 0.7);
+  --clr2: rgb(83 1 131 / 1);
+}
+.card2 {
+  /* --clr: var(--red-ag-1200); */
+  --clr: rgb(212 24 0 / 0.7);
+  --clr2: rgb(212 24 0 / 1);
+}
+.card3 {
+  --clr: rgb(212 24 0 / 0.7);
+  --clr2: rgb(212 24 0 / 1);
+}
+.card4 {
+  --clr: rgb(83 1 131 / 0.9);
+  --clr2: rgb(83 1 131 / 1);
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--background);
+  position: relative;
+}
+
+/* styling the header */
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-1rem);
+  width: calc(100% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.footer {
+  text-align: center;
+  color: var(--violet-lt-100);
+  font-size: 3rem;
+  opacity: 0.3;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer:hover {
+  color: var(--accent);
+  opacity: 0.5;
+}
+
+/* styling the button wrapper */
+.button-container {
+  position: absolute;
+  top: calc(0vh + 15px);
+  right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5rem;
+  z-index: 99;
+}
+
+/* styling the button */
+.button-container button {
+  padding: 8px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgba(218, 207, 224, 0.5);
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button-container button:hover {
+  color: white;
+  box-shadow: 2px 2px 15px var(--accent), 3px 3px 45px var(--violet-sat-1500);
+}
+
+.button-container button:active {
+  transform: scale(0.9);
+}
+
+/* button-wrapper styling */
+.button-wrapper {
+  display: flex;
+  align-content: inherit;
+  justify-self: center;
+  gap: 1rem;
+}
+
+/* indicator-container (beneath the button-container) styling */
+.indicator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.indicator {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.indicator:hover {
+  background-color: var(--accent);
+  box-shadow: 0 0 30px var(--accent);
+}
+
+/* card wrapper styling section */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* card-container styling section */
+.card-container {
+  width: calc(100% -100px);
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 45px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth; /* ทำให้เลื่อนนุ่ม */
+}
+
+.card-container {
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x; /* จำกัดการเลื่อนไปแนวนอนเท่านั้น */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background: var(--violet-lt-800);
+  border-radius: 10px;
+}
+
+.card-container::-webkit-scrollbar-track {
+  background: var(--violet-lt-1600);
+}
+
+.card {
+  scroll-snap-align: start; /* optional */
+}
+.card-container::-webkit-scrollbar {
+  height: 16px; /* ✅ ความหนา scrollbar แนวนอน */
+  width: 16px; /* ✅ ถ้ามีแนวตั้งด้วย */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background: var(--violet-lt-800);
+  border-radius: 10px;
+}
+
+/* clos-button styling */
+.card .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 45px;
+  border-radius: 0 0 0 50px;
+  background-color: var(--clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.active .close-button {
+  width: 75px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.card .close-button i {
+  color: white;
+  font-size: 2rem;
+  opacity: 0.3;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.card4 .close-button i {
+  opacity: 0.5;
+}
+
+.card .close-button:hover {
+  background-color: var(--clr2);
+  box-shadow: -5px 5px 50px var(--clr);
+}
+
+.card .close-button:hover i {
+  opacity: 1;
+  text-shadow: 0 0 35px white;
+}
+
+/* card header styling */
+.card.active .header-wrapper {
+  position: absolute;
+  opacity: 1;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.header-wrapper {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  width: 0;
+  left: 0;
+  z-index: 45;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  padding: 15px 35px;
+  cursor: pointer;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.header-wrapper h3.header {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--violet-lt-50);
+  transition: all 0.5s ease-in-out;
+}
+
+.header-wrapper:hover h3.header {
+  text-shadow: 0 0 35px var(--violet-lt-100);
+}
+
+/* card styling section */
+.card {
+  width: 300px;
+  height: 150px;
+  background-color: var(--violet-lt-50);
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  box-shadow: 5px 5px 45px var(--secondary);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.card.active {
+  height: 700px;
+}
+
+.img-box {
+  width: 100%;
+  height: 450px;
+  flex-shrink: 1;
+  background-color: var(--violet-lt-200);
+  cursor: pointer;
+  filter: brightness(50%) blur(25px);
+  transition: all 0.5s ease-in-out;
+  border-radius: 50px 50px 50px 0;
+}
+
+.card:hover .img-box {
+  filter: brightness(125%) blur(5px);
+}
+
+.card.active .img-box {
+  filter: brightness(100%) blur(0);
+}
+
+.card.active:hover {
+  box-shadow: 5px 5px 75px var(--secondary), 5px 5px 50px var(--violet-lt-900);
+}
+
+.card.active:hover .img-box {
+  filter: brightness(150%);
+}
+/* card image styling section */
+
+.card1 .img-box {
+  background: url("images/黒の男子.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 0.5s ease-in-out;
+}
+
+.card2 .img-box {
+  background: url("images/紅龍剣士の女子.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.active.card2 {
+  box-shadow: 5px 5px 45px var(--red-ag-1000);
+}
+
+.card.active.card2:hover {
+  box-shadow: 5px 5px 75px var(--red-ag-1000), 5px 5px 15px var(--red-ag-800),
+    5px 5px 2px var(--red-ag-500-tp);
+}
+
+.card3 .img-box {
+  background: url("images/紅焔魔.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.active.card3 {
+  box-shadow: 5px 5px 45px var(--red-ag-1000);
+}
+
+.card.active.card3:hover {
+  box-shadow: 5px 5px 75px var(--red-ag-1000), 5px 5px 15px var(--red-ag-800),
+    5px 5px 2px var(--red-ag-500-tp);
+}
+
+.card4 .img-box {
+  background: url("images/紅龍魔女.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-blend-mode: multiply;
+  transition: all 0.5s ease-in-out;
+}
+
+/* card content styling section */
+
+.content {
+  background-color: var(--violet-lt-50);
+  width: 100%;
+  height: 35px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  flex-shrink: 1;
+  padding: 0.5rem 1.5rem;
+  position: relative;
+}
+
+.card.active .content {
+  height: 150px;
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.card.active .content::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  border-radius: 50%;
+  right: 0;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  box-shadow: 75px 70px 0 40px var(--violet-lt-50);
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  border-radius: 50%;
+  right: 0;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  box-shadow: 75px 70px 0 40px var(--violet-lt-50);
+}
+
+.content h3 {
+  margin: 0.5rem 0;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 800;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.35rem;
+  opacity: 0;
+}
+
+.card.active .content h3 {
+  opacity: 1;
+}
+
+.content span {
+  margin-left: 1.5rem;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card.active .content span {
+  opacity: 1;
+}
+
+.content p {
+  margin: 0.35rem 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Noto Serif JP", serif;
+}
+
+@media only screen and (max-width: 900px) {
+  .button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .indicator-container {
+    order: 2;
+  }
+
+  .button-wrapper {
+    order: 1;
+  }
+}
